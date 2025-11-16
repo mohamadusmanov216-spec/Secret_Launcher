@@ -1,0 +1,36 @@
+# .gitignore
+
+# Скомпилированные классы
+*.class
+build/
+dist/
+
+# Логи
+*.log
+logs/
+
+# Файлы IDE
+.idea/
+*.iml
+*.iws
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Конфигурационные файлы
+*.properties
+*.cfg
+config.json
+
+# Временные файлы
+temp/
+tmp/
+
+# Файлы установки
+*.exe
+Setup.exe
+
+# Резервные копии
+*.bak
+*.backup
