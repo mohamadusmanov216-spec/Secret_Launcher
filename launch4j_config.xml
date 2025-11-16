@@ -1,0 +1,47 @@
+<!-- launch4j_config.xml -->
+<launch4jConfig>
+    <dontWrapJar>false</dontWrapJar>
+    <headerType>gui</headerType>
+    <jar>dist/SecretLauncher.jar</jar>
+    <outfile>dist/SecretLauncher.exe</outfile>
+    <errTitle>Secret Launcher</errTitle>
+    <cmdLine></cmdLine>
+    <chdir></chdir>
+    <priority>normal</priority>
+    <downloadUrl>https://java.com/download</downloadUrl>
+    <supportUrl></supportUrl>
+    <stayAlive>false</stayAlive>
+    <restartOnCrash>false</restartOnCrash>
+    <manifest></manifest>
+    <icon>resources/icon.ico</icon>
+    <singleInstance>
+        <mutexName>SecretLauncherMutex</mutexName>
+        <windowTitle>Secret Launcher</windowTitle>
+    </singleInstance>
+    <classPath>
+        <mainClass>com.secretlauncher.MainLauncher</mainClass>
+        <cp>dist/SecretLauncher.jar</cp>
+    </classPath>
+    <jre>
+        <path>jre</path>
+        <requiresJdk>false</requiresJdk>
+        <requires64Bit>false</requires64Bit>
+        <minVersion>11</minVersion>
+        <maxVersion></maxVersion>
+        <initialHeapSize>512</initialHeapSize>
+        <maxHeapSize>1024</maxHeapSize>
+        <opt>-Dneon.ui=true</opt>
+    </jre>
+    <versionInfo>
+        <fileVersion>1.0.0.0</fileVersion>
+        <txtFileVersion>1.0.0</txtFileVersion>
+        <fileDescription>Secret Minecraft Launcher</fileDescription>
+        <copyright>2023 Secret Launcher Team</copyright>
+        <productVersion>1.0.0.0</productVersion>
+        <txtProductVersion>1.0.0</txtProductVersion>
+        <productName>Secret Launcher</productName>
+        <companyName>Secret Launcher Team</companyName>
+        <internalName>SecretLauncher</internalName>
+        <originalFilename>SecretLauncher.exe</originalFilename>
+    </versionInfo>
+</launch4jConfig>
